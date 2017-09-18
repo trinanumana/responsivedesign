@@ -4,7 +4,7 @@ body{
 	text-align: center;
 }
 @media screen and (min-width: 1000px){      
-      img{        
+      .reg{        
         content:url("images/kitten-small.png");
       } 
 	  body{
@@ -13,7 +13,7 @@ body{
 }
 
 @media screen and (min-width: 1200px) {      
-    img{      
+    .reg{      
        content:url("images/kitten-medium.png");
      }
 	 body{
@@ -21,7 +21,7 @@ body{
 	 }
 } 
 @media screen and (min-width: 1400px){   
-    img{      
+    .reg{      
         content:url("images/kitten-large.png");
     }	
 	body{
@@ -29,10 +29,15 @@ body{
 	}
 }
 @media screen and (max-width: 999px) {    
-     img{         
+     .reg{         
          content:url("images/kittyloaf.gif");   
      } 
 	 body{
 		 background-color: green;
 	 }
+}
+@media screen and (max-width:980px){
+		.popup{
+			content:url("images/kitten-small.png");
+		}
 }
