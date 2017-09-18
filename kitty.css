@@ -36,7 +36,7 @@ body{
 		 background-color: green;
 	 }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
 		.popup{
 			content:url("images/kitten-small.png");
 		}
